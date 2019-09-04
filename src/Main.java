@@ -27,6 +27,8 @@ public class Main {
         graph.addEdge("H", "J", 1);
         graph.addEdge("G", "J", 3);
         graph.addEdge("D", "E", 3);
+        graph.addEdge("A", "B", 3);
+        graph.addEdge("A", "J", 13);
 
         graph.dijkstraAlgorithm("A", "J");          //сумму целиком считает верно, но "проглатывает
                                                                 //граф "В", просто учитывая его цену и все
